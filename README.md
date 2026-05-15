@@ -6,7 +6,9 @@ Program ini berfungsi sebagai fitur pencatatan dan pengelolaan riwayat masuknya 
 Program dilengkapi dengan fitur utama stack yaitu `push` (untuk menambah catatan), `pop` (untuk membatalkan/undo input terakhir), `peek` (melihat catatan paling baru), dan `display` (melihat keseluruhan riwayat). Untuk mencegah terjadinya *crash* saat program berjalan, menu input juga sudah dibungkus dengan validasi `try-except` sehingga jika pengguna memasukkan selain angka pada menu pilihan, program akan tetap berjalan dan memberikan peringatan.
 
 C. Source Code
-
+<img width="494" height="461" alt="Cuplikan layar 2026-05-15 204440" src="https://github.com/user-attachments/assets/756ca74e-4f11-4337-93e0-e4a514ab04ab" />
+<img width="418" height="461" alt="Cuplikan layar 2026-05-15 204450" src="https://github.com/user-attachments/assets/fd58cdc6-24c0-40ba-95b7-85ac62486eb4" />
+<img width="265" height="183" alt="Cuplikan layar 2026-05-15 204458" src="https://github.com/user-attachments/assets/e961f060-2002-459d-80d4-bb673e69bb5e" />
 
 Penjelasan kode per baris:
 
@@ -52,6 +54,8 @@ Penjelasan kode per baris:
 * memastikan program utama berjalan dengan `if __name__ == "__main__":` lalu memanggil fungsi `main()`
 
 D. Output Program
+<img width="445" height="403" alt="Cuplikan layar 2026-05-15 204608" src="https://github.com/user-attachments/assets/c3f7b103-00d0-4571-bf6c-9f7b2e028de9" />
+<img width="420" height="360" alt="Cuplikan layar 2026-05-15 204615" src="https://github.com/user-attachments/assets/0529080f-da0c-488b-9100-4c6af5f38cb0" />
 
 Penjelasan Output:
 Saat program dijalankan, akan muncul antarmuka menu Manajemen Riwayat Stok. Pertama, user menginputkan angka "1" untuk mencatat stok masuk. Program lalu meminta deskripsi data stok, dan user mengetikkan "Tambah 12 Teh Pucuk". Program merespons dengan menampilkan pesan "Catatan [Tambah 12 Teh Pucuk] berhasil ditambahkan.". Kemudian user memilih menu "1" lagi dan memasukkan data kedua: "Masuk 50 pcs Indomie Goreng". Setelah itu, user memilih menu "4" untuk mengecek keseluruhan data. Program secara berurutan mencetak riwayat dari yang terbaru ke yang paling lama, yaitu Indomie Goreng di urutan teratas disusul Teh Pucuk di bawahnya.
@@ -59,4 +63,4 @@ Saat program dijalankan, akan muncul antarmuka menu Manajemen Riwayat Stok. Pert
 Karena user menyadari ada salah input pada data terakhir, user memilih menu "2" (Batal Catat/Undo). Program langsung merespons dengan membatalkan catatan Indomie Goreng tanpa menghapus Teh Pucuk. Hal ini dibuktikan ketika user memilih menu "3" (Cek Riwayat Terakhir), program menampilkan bahwa riwayat terakhir yang berada di puncak tumpukan saat ini adalah "Tambah 12 Teh Pucuk". Terakhir, user menginputkan angka "5" dan program pun selesai dijalankan.
 
 E. Link youtube
-[https://youtu.be/7jyQuzIOrmw?si=o1Ja_B7Iy2sUm54g](https://youtu.be/7jyQuzIOrmw?si=o1Ja_B7Iy2sUm54g)
+https://youtu.be/civt87U6Gng?si=xHIrBTjO_hEHgSZi
